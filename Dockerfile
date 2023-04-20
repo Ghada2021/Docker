@@ -1,7 +1,7 @@
 FROM jupyter/scipy-notebook
 
 RUN pip install numpy --no-cache-dir
-RUN pip install joblib==1.1.0
+RUN pip install joblib 
 
 COPY train.csv ./train.csv
 COPY test.csv ./test.csv

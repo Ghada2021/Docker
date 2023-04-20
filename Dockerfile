@@ -1,6 +1,7 @@
-FROM python:3.9
+FROM python:3.10
 
-RUN pip install joblib
+RUN pip install numpy --no-cache-dir
+RUN pip install joblib==1.1.0
 
 COPY train.csv ./train.csv
 COPY test.csv ./test.csv

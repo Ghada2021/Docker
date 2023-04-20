@@ -15,7 +15,7 @@ def inference():
 
     # Load, read and normalize training data
     
-    testing = 'C:/Users/DELL/Desktop/mlops/test.csv'
+    testing = './test.csv'
     data_test = pd.read_csv(testing)
    
         

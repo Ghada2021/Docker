@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM jupyter/scipy-notebook
 
 RUN pip install numpy --no-cache-dir
 RUN pip install joblib==1.1.0

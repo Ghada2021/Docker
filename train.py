@@ -19,7 +19,7 @@ from sklearn import preprocessing
 def train():
 
     # Load, read and normalize training data
-    training = "C:/Users/DELL/Desktop/mlops/train.csv"
+    training = "./train.csv"
     data_train = pd.read_csv(training)
         
     y_train = data_train['# Letter'].values

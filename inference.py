@@ -9,6 +9,7 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.neural_network import MLPClassifier
 import pandas as pd
 from joblib import dump
+from joblib import load
 from sklearn import preprocessing
 
 def inference():

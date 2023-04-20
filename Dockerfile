@@ -2,7 +2,7 @@ FROM python:3.10
 
 RUN pip install numpy --no-cache-dir
 RUN pip install scipy --no-cache-dir
-RUN pip install sklearn --no-cache-dir
+RUN pip install scikit-learn --no-cache-dir
 RUN pip install pandas --no-cache-dir
 
 RUN pip install joblib

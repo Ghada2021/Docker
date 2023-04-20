@@ -1,7 +1,11 @@
-FROM jupyter/scipy-notebook
+FROM python:3.10
 
 RUN pip install numpy --no-cache-dir
-RUN pip install joblib 
+RUN pip install scipy --no-cache-dir
+RUN pip install sklearn --no-cache-dir
+RUN pip install pandas --no-cache-dir
+
+RUN pip install joblib
 
 COPY train.csv ./train.csv
 COPY test.csv ./test.csv
